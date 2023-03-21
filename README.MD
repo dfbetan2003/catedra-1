@@ -1,1 +1,5 @@
-# Este es el proyecto de catdra de lme hecho con HTML y CSS
+# Este es el proyecto de catedra de LME
+
+## Tecnologias usadas
+    - CSS
+    - HTML
