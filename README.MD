@@ -1,5 +1,5 @@
 # Este es el proyecto de catedra de LME
 
-##### Tecnologias usadas
+### Tecnologias usadas
     - CSS
     - HTML
