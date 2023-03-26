@@ -54,37 +54,9 @@ h1 {
 
     
 
-nav ul {
-    list-style: none;
-    font-size: 1.0em;
-    font-weight: 500;
-    margin-left: 50px;
-    padding: 0;
-    display: flex;
-    font-family: cursive;
-    transition: .5s;
+
     
 
-
-
-}
-
-nav li {
-    margin-right: 10px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1em;
-    position: relative;
-    margin-left: 10px;
-}
-
-nav{
-    align-items: center;
-    
-}
 .nose {
     background-color:#9e9a9a;
     background-repeat: no-repeat;
