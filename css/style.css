@@ -30,6 +30,7 @@ h1 {
     font-family: cursive;
     animation: desplazamiento 1s infinite;
     background: linear-gradient(to right, #FF0000, #00FF00, #09b975);
+    background-clip: text ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
