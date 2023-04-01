@@ -118,9 +118,51 @@ nav li>a:hover
 {
     opacity: 1.5;
 }
-#slidercard
+#carouselContainer
 {
-    margin-top: 300px;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 25px;
+    
+}
+#SliderAuto
+{
+    flex: 2;
+    box-shadow: rgb(12, 12, 12) 10px 10px 10px 0px;
+    z-index: 100;
+}
+#carouselInfo
+{
+   
+    flex: 1;
+}
+#carouselInfo>div
+{
+    width: 90%;
+    height: 99.5%;
+    background-color:  #2C3333 ;
+    z-index: 50;
+    box-shadow: rgb(12, 12, 12) 10px 10px 10px 0px;
+}
+#carouselInfo div>h2
+{
+    text-align: center;
+    color: #F5F5F5;
+    opacity: 0.8;
+    font-size: 26px;
+}
+#tienda
+{
+    margin-top: 100px;
+}
+#infoCard
+{
+    margin-left: 25px;
+}
+#infoCard h2
+{
+ color: white;
 }
 #slidercard .carousel-inner
 {
@@ -170,3 +212,7 @@ nav li>a:hover
       height: 17em;
     }
   }
+.f
+{
+    color: #F5F5F5 !important;
+}
