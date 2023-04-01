@@ -1,0 +1,42 @@
+#principal-game
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+#title-Game h1
+{
+    margin-bottom: 0;
+}
+#game-Container
+{
+    margin: 0;
+    width: 100%;
+
+    display: flex;
+}
+#game-Description
+{
+    flex: 1;
+    order: 1;
+  height: 100%;
+}
+#img-Carousel
+{
+    flex: 3;
+    order: 2 ;
+}
+#game-Description .card, .card-body
+{
+    border: none;
+     --bs-card-border-radius: 0;
+}
+.carousel-indicators {
+    position: static;
+  }
+#img-Carousel .carousel-indicators li {
+    list-style: none;
+    width: 150px;
+    height: 100%;
+    opacity: 0.8;
+}
